@@ -1,0 +1,135 @@
+.app-layout-container{
+	overflow-x: hidden;
+}
+.login_card {
+	margin-top: 100px;
+}
+.login-background {
+	background-image: url("../img/bg/bg.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.custom_nav {
+	background-color: #5ccdde !important;
+}
+.custom_aside {
+	background-color: #454e59 !important;
+	color: #acb5bf;
+	border-right-color: #454e59;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	background: rgba(0, 0, 0, 0.2);
+	border-color: #5ccdde;
+	color: #fff;
+}
+.nav-drawer > .active > a {
+	border-color: #5ccdde;
+	color: #fff;
+}
+.nav-item-has-subnav.open > .nav-subnav {
+	display: block;
+	background: rgba(255, 255, 255, 0.1);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.nav-subnav > li > a {
+	color: inherit;
+}
+.nav-subnav > li > a:hover,
+.nav-subnav > li > a:focus,
+.nav-subnav > li > a:active {
+	color: #fff;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: unset;
+	color: #fff;
+}
+.navbar-page-title,
+.navbar-toolbar > li > a i {
+	color: #fff;
+}
+.user_title {
+	color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: transparent;
+	color: #fff;
+}
+li.dropdown-header {
+    padding: 8px 10px;
+    color: #454e59;
+    background-color: #ebeef2;
+}
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap;
+}
+.dropdown-menu.dropdown-menu-right{
+	padding: 0 0;
+}
+.dropdown-menu > li > a {
+    padding: 8px 10px;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .nav .open > a, .nav .open > a:focus, .nav .open > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #5ccdde;
+}
+
+.add_img_gallery .per_img_div{
+	min-height:100px;
+	max-height:198px;
+	margin-bottom:8px;
+	text-align:center
+}
+.per_img_div img{
+	max-width:100%;
+	max-height:100%
+}
+.slide_ga_img{
+	position: relative;
+}
+.slide_ga_img:hover .gallery_content{
+	opacity: 0.6;
+	cursor: pointer;
+	/* background-color: rgba(259, 67, 95, 0.7); */
+	background-color: #5ccdde;
+}
+.gallery_content{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	transition: all .4s ease-in-out;
+	overflow:hidden;
+}
+.select_forslide{
+	position: absolute;
+	top: 25px;
+	right: 24px;
+	z-index: 1;
+	visibility: hidden;
+}
+.slide_ga_img:hover .select_forslide{
+	visibility: visible;
+	opacity: 1 !important;
+}
